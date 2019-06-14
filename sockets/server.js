@@ -1,5 +1,6 @@
 const WebSocketServer = require('ws').Server;
-const wss = new WebSocketServer({port: 9090});
+const port = process.env.PORT || 9090;
+const wss = new WebSocketServer({port});
 
 let clients = [];
 
