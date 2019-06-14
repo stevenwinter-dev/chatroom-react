@@ -1,0 +1,11 @@
+.Login-username {
+    background: transparent; 
+    outline: 0;
+  border-width: 0 0 2px;
+  border-color: silver;
+
+}
+
+.Login-username:-webkit-autofill:focus, .Login-username:-webkit-autofill:active {
+    background: transparent;
+}
